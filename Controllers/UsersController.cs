@@ -53,7 +53,6 @@ namespace EMedicineBE.Controllers
             SqlConnection connection = new SqlConnection(_configuration.GetConnectionString("EMedCS").ToString());
             Response response = dal.updateProfile(users,connection);
             return response;
-            //sdasdádasd
         }
     }
 }
